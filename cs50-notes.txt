@@ -1,0 +1,3 @@
+<----C---->
+<int> can store 4 bytes (32bits) of data. (1byte=8bits) -2^31 to (2^31)-1. 1 bit is used for minus sign.
+<unassigned int> 

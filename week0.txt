@@ -1,3 +1,0 @@
-
-Your project must use at least one custom block that you have made yourself (via Make a Block), which must take at least one input.
-
