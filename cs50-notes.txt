@@ -1,3 +1,16 @@
 <----C---->
-<int> can store 4 bytes (32bits) of data. (1byte=8bits) -2^31 to (2^31)-1. 1 bit is used for minus sign.
-<unassigned int> 
+//comments
+<1byte=8bits>
+<int number(1), number(2);> each number(n) can store 4 bytes (32bits) of data -2^31 to (2^31)-1. 1 bit is used for minus sign.
+<unassigned int> 4 bytes of positive values (2^32)-1. no negative values.
+<char letter> each character takes up 1 byte of memory.
+char 0 is not equal to int 0
+<float> 4bytes. decimal numbers.
+<double> like a float but 8bytes.
+<void> type. placeholder for nothing.
+<bool> 1 value: true or false. to use <#include <cs50.h>> at top.
+<sring> words. to use <#include <cs50.h>> at top.
+<x++> increment
+<x--> decrement
+<bool true = int n>
+<bool false = int 0>
