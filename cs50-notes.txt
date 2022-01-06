@@ -1,5 +1,6 @@
 <----C---->
 //comments
+<control + c> force quit program
 <1byte=8bits>
 <int number(1), number(2);> each number(n) can store 4 bytes (32bits) of data -2^31 to (2^31)-1. 1 bit is used for minus sign.
 <unassigned int> 4 bytes of positive values (2^32)-1. no negative values.
@@ -25,4 +26,8 @@ char 0 is not equal to int 0
 <if (bool1) {} else if (bool2) {} else if (bool3) {}>
 <if (bool1) {}  if (bool2) {} else if (bool3) {} else {}>
 <switch()> permits enumeration of discrete cases - instead of using bool. most of the time break between multiples with ;
-<int x = (bool) ? 5 : 6;> if book true assign 5 else 6.
+<int x = (bool) ? 5 : 6;> if bool true assign x=5 else x=6.
+<while (true) {}> infinite loop.
+<while (bool=true) {}> loop while bool=true. good for tracking user in running game.
+<do {} while (bool=true);> loops at least once then checks bool. does again if boll=true. good for asking user for input.
+<for (int n = 0; n < 10; i++) {}> repeat (loop) n times. example: the loop will run userInput(n) times.
