@@ -14,3 +14,15 @@ char 0 is not equal to int 0
 <x--> decrement
 <bool true = int n>
 <bool false = int 0>
+<x && y> boolean true only if both operands true
+<x || y> boolean true only if both operands or one of them is true
+<!x> logical NOT. inverts value of operand.
+<x >= y> greater than or equal to.
+<x == y> testing for equality.
+<x != y> testing for inequality.
+<if (bool) {}> conditional
+<if (bool) {} else {}> conditional
+<if (bool1) {} else if (bool2) {} else if (bool3) {}>
+<if (bool1) {}  if (bool2) {} else if (bool3) {} else {}>
+<switch()> permits enumeration of discrete cases - instead of using bool. most of the time break between multiples with ;
+<int x = (bool) ? 5 : 6;> if book true assign 5 else 6.
