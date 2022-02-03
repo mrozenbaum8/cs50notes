@@ -1,3 +1,10 @@
+<---Lecture--->
+<string answer = get_string("What's your name?\n");>
+<%s> placeholder for a string
+<%i> placeholder for integer
+<%f> placeholder for float
+
+
 <----C---->
 //comments
 <control + c> force quit program
@@ -11,8 +18,8 @@ char 0 is not equal to int 0
 <void> type. placeholder for nothing.
 <bool> 1 value: true or false. to use <#include <cs50.h>> at top.
 <sring> words. to use <#include <cs50.h>> at top.
-<x++> increment
-<x--> decrement
+<x++;> increment
+<x--;> decrement
 <bool true = int n>
 <bool false = int 0>
 <x && y> boolean true only if both operands true
