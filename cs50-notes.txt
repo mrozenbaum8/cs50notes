@@ -17,7 +17,7 @@ char 0 is not equal to int 0
 <double> like a float but 8bytes.
 <void> type. placeholder for nothing.
 <bool> 1 value: true or false. to use <#include <cs50.h>> at top.
-<sring> words. to use <#include <cs50.h>> at top.
+<string> words. to use <#include <cs50.h>> at top.
 <x++;> increment
 <x--;> decrement
 <bool true = int n>
