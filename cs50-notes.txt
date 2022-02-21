@@ -38,3 +38,11 @@ char 0 is not equal to int 0
 <while (bool=true) {}> loop while bool=true. good for tracking user in running game.
 <do {} while (bool=true);> loops at least once then checks bool. does again if boll=true. good for asking user for input.
 <for (int n = 0; n < 10; i++) {}> repeat (loop) n times. example: the loop will run userInput(n) times.
+
+<----Arrays---->
+<return-type name(argument-list. comma-separated set of inputs. each with type and name){return calculation;}> function declaration
+int add_two ints(int a, int b);
+int add_two ints(int a, int b)
+{
+    return a + b;
+}
