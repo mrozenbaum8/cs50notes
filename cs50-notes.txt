@@ -46,3 +46,5 @@ int add_two ints(int a, int b)
 {
     return a + b;
 }
+
+<type name [size];>array declaration
